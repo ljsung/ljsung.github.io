@@ -13,165 +13,185 @@ redirect_from:
 
 <!--author-->
 
-## Hydejack
-
-A boutique Jekyll theme for hackers, nerds, and academics.  
-{:.lead}
-
-1. this list will be replaced by the toc
-{:toc .large-only}
-
-![Screenshot](assets/img/blog/hydejack-9.jpg){:.lead width="1920" height="1080" loading="lazy"}
-
-Hydejack's cover page on a variety of screen sizes.
-{:.figcaption}
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
 
 
-**Hydejack** is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress. 
+<style>
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+  }
+  .skills-container {
+    max-width: 680px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .skill {
+    margin: 20px 0;
+  }
+  .skill-name {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    letter-spacing: 1px
+  }
+  .skill-bar {
+    background-color: #eaeaea;
+    border-radius: 4px;
+    height: 10px;
+    width: 100%;
+    position: relative;
+  }
+  .skill-percentage {
+    background-color: #4caf50;
+    height: 10px;
+    border-radius: 4px;
+    width: 0;
+    transition: width 1s ease;
+    position: absolute;
+  }
+  .percentage-label {
+    position: absolute;
+    right: 10px;
+    top: -25px;
+    color: #333;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+   table tr {
+    background-color: #fff; 
+  }
+</style>
+</head>
+<body>
 
-It includes a blog that is suitable for both prose and technical documentation, a portfolio to showcase your projects, and a resume template that looks amazing on the web and in print.
+<div class="education-container">
+  <div class="title">학력</div>
+  <table>
+    <tr>
+      <th>학교</th>
+      <th>전공</th>
+      <th>기간</th>
+    </tr>
+    <tr>
+      <td>수원과학대학교</td>
+      <td>컴퓨터정보</td>
+      <td>2019년 3월 - 2023년 3월</td>
+    </tr>
+    <!-- 다른 학력 정보를 이곳에 추가할 수 있습니다. -->
+  </table>
+</div>
 
-> Your complete presence on the web — A [blog], [portfolio], and [resume].
-{:.lead}
+<div class="title">경력</div>
+  <table>
+    <tr>
+      <th>교육명</th>
+      <th>기간</th>
+    </tr>
+    <tr>
+      <td>인공지능 프로젝트 부트캠프(AI협업)</td>
+      <td>2023년 9월 - 2023년 11월</td>
+    </tr>
+    <tr>
+      <td>응용sw 개발(자바,리액트 기반 프로젝트)</td>
+      <td>2022년 12월 - 2023년 7월</td>
+    </tr>
+    <!-- 추가적인 경력 정보를 이곳에 추가할 수 있습니다. -->
 
+  </table>
 
-## A Personal Site That Won't Disappear
+<h2>보유 기술</h2>
 
-**Hydejack** is 100% built on Open Source software, and is Open Source itself, save for parts of the PRO version. The PRO version is a one-time payment that gives you the right to use it forever.
+<title>보유 기술</title>
 
-Hydejack is all static sites. _HTML_. All you need is a web server --- any web server --- to have a professional web presence that lasts a lifetime.
+  <div class="skills-container">
+    <!-- Skill Item -->
+    <div class="skill">
+      <div class="skill-name">Java</div>
+      <div class="skill-bar">
+        <div class="skill-percentage" style="width: 90%;" data-value="90%"></div>
+        <div class="percentage-label">90%</div>
+      </div>
+    </div>
+    <!-- Repeat for other skills -->
+    <div class="skill">
+      <div class="skill-name">React</div>
+      <div class="skill-bar">
+        <div class="skill-percentage" style="width: 85%;" data-value="85%"></div>
+        <div class="percentage-label">85%</div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">Spring Boot</div>
+      <div class="skill-bar">
+        <div class="skill-percentage" style="width: 80%;" data-value="80%"></div>
+        <div class="percentage-label">80%</div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">MyBatis</div>
+      <div class="skill-bar">
+        <div class="skill-percentage" style="width: 65%;" data-value="65%"></div>
+        <div class="percentage-label">65%</div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">Oracle</div>
+      <div class="skill-bar">
+        <div class="skill-percentage" style="width: 90%;" data-value="90%"></div>
+        <div class="percentage-label">90%</div>
+      </div>
+    </div>
+    <div class="skill">
+      <div class="skill-name">MySQL</div>
+      <div class="skill-bar">
+        <div class="skill-percentage" style="width: 80%;" data-value="80%"></div>
+        <div class="percentage-label">80%</div>
+      </div>
+    </div>
+      <div class="skill">
+      <div class="skill-name">Github</div>
+      <div class="skill-bar">
+        <div class="skill-percentage" style="width: 100%;" data-value="100%"></div>
+        <div class="percentage-label">100%</div>
+      </div>
+    </div>
+      <div class="skill">
+      <div class="skill-name">SourceTree</div>
+      <div class="skill-bar">
+        <div class="skill-percentage" style="width: 100%;" data-value="100%"></div>
+        <div class="percentage-label">100%</div>
+      </div>
+    </div>
+  <div class="skill">
+      <div class="skill-name">Notion</div>
+      <div class="skill-bar">
+        <div class="skill-percentage" style="width: 100%;" data-value="100%"></div>
+        <div class="percentage-label">100%</div>
+      </div>
+    </div>
+    <!-- ... other skills here ... -->
+  </div>
 
-## Download
-
-{% include table.md %}
-
-
-## A Free Blogging Theme
-**Hydejack** started out as a free blogging theme for Jekyll — and continues to be so.
-
-<!--posts-->
-
-
-## An Impressive Portfolio
-A portfolio that's guaranteed to be impressive — no matter what you put into it.
-
-<!--projects-->
-
-
-## A Printable Resume
-Get a resume that's consistent across the board — whether it's on the web, mobile, print, or [PDF](assets/Resume.pdf).
-
-[![Resume PDF](assets/img/blog/resume.png){:.lead width="884" height="632" loading="lazy"}][resume]{:.no-hover.no-mark}
-
-Front and center page of a print resume generated by Hydejack.
-{:.figcaption}
-
-
-## Just Markdown
-Write all content with Markdown. __Hydejack__ gives you [additional CSS classes](docs/writing.md) to stylize your content, without losing compatibility with other Jekyll themes.
-
-
-## Just Markup
-**Hydejack** boasts a plethora of modern JavaScript, but make no mistake: It's still a _plain old web page_ at its core. It works without JavaScript and you can even view it in a text-based browser like `w3m`:
-
-![w3m Screenshot](assets/img/blog/w3m.png){:.tail width="1920" height="1260" loading="lazy"}
-
-The Hydejack blog, as seen by the text browser `w3m`.
-{:.figcaption}
-
-
-## Syntax Highlighting
-**Hydejack** features syntax highlighting, powered by [Rouge].
-
-```html
-<!-- file: `_includes/my-body.html` -->
-<script type="module">
-  document.querySelector("hy-push-state").addEventListener("hy-push-state-load", () => {
-    const supportsCodeHighlights = false; // TBD!!
+<script>
+// This script will gradually fill the skill bars on page load.
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.skill-percentage').forEach(bar => {
+    const percentageValue = bar.getAttribute('data-value');
+    setTimeout(() => {
+      bar.style.width = percentageValue;
+    }, 100);
   });
+});
 </script>
-```
 
-Code blocks can have a filename and a caption.
-{:.figcaption}
-
-
-## Beautiful Math
-They say math is beautiful — and with **Hydejack**'s [math support][math] it's guaranteed to also look beautiful:
-
-$$
-\begin{aligned}
-  \phi(x,y) &= \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right) \\[2em]
-            &= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j)            \\[2em]
-            &= (x_1, \ldots, x_n)
-               \left(\begin{array}{ccc}
-                 \phi(e_1, e_1)  & \cdots & \phi(e_1, e_n) \\
-                 \vdots          & \ddots & \vdots         \\
-                 \phi(e_n, e_1)  & \cdots & \phi(e_n, e_n)
-               \end{array}\right)
-               \left(\begin{array}{c}
-                 y_1    \\
-                 \vdots \\
-                 y_n
-               \end{array}\right)
-\end{aligned}
-$$
-
-Hydejack uses KaTeX to efficiently render math.
-{:.figcaption}
-
-
-## Build an Audience
-The PRO version has built-in support for customizable [Tinyletter] newsletter subscription boxes.
-
-If you are using a different service like MailChimp, you can build a custom newsletter subscription box using [Custom Forms][forms].
-
-
-## Features
-
-{% include features.md %}
-
-
-## Comparison
-
-{% include table.md %}
-
-
-## Get It Now
-
-Use the the form below to purchase Hydejack PRO:
-
-<div class="gumroad-product-embed" data-gumroad-product-id="nuOluY"><a href="https://gumroad.com/l/nuOluY">Loading…</a></div>
-
-
-[blog]: /
-[portfolio]: https://hydejack.com/examples/
-[resume]: https://hydejack.com/resume/
-[download]: https://hydejack.com/download/
-[welcome]: https://hydejack.com/
-[forms]: https://hydejack.com/forms-by-example/
-
-[features]: #features
-[news]: #build-an-audience
-[syntax]: syntax-highlighting
-[latex]: #beautiful-math
-[dark]: https://hydejack.com/blog/hydejack/2018-09-01-introducing-dark-mode/
-[search]: https://hydejack.com/#_search-input
-[grid]: https://hydejack.com/blog/hydejack/
-
-[lic]: LICENSE.md
-[pro]: licenses/PRO.md
-[docs]: docs/README.md
-[ofln]: docs/advanced.md#enabling-offline-support
-[math]: docs/writing.md#adding-math
-
-[kit]: https://github.com/hydecorp/hydejack-starter-kit/releases
-[src]: https://github.com/hydecorp/hydejack
-[gem]: https://rubygems.org/gems/jekyll-theme-hydejack
-[buy]: https://gum.co/nuOluY
-
-[gpss]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fhydejack.com%2Fdocs%2F
-[rouge]: http://rouge.jneen.net
-[katex]: https://khan.github.io/KaTeX/
-[mathjax]: https://www.mathjax.org/
-[tinyletter]: https://tinyletter.com/
+</body>
+</html>
